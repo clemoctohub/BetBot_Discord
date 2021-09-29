@@ -35,7 +35,7 @@ client.on('message', message => {
             name+=args[i]+" ";
         }
 
-        for(i=1;condi!=false;i++){
+        for(i=1;i<3;i++){
             temp = "c"+i.toString()+":";
             if(args.includes(temp)){   
                 if(args.includes("c"+(i+1).toString()+":")){
